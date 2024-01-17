@@ -1,0 +1,14 @@
+:root {
+  --indent-size: 6;
+  --indent-space: calc((var(--indent-size) / 4) * 1em);
+}
+
+@media (min-width: 900px) {
+  :root {
+    --indent-size: 10;
+  }
+}
+
+.form-indent {
+  margin-left: var(--indent-space);
+}
